@@ -190,15 +190,15 @@ The source data zip file is located at https://d396qusza40orc.cloudfront.net/get
 The following work that you performed to clean up the Source data:
 
     1. The source data is downloaded and extracted from the zip file
-    1. The training and test sets were merged to create one data set.
-    1. The measurements on the mean and standard deviation (i.e. signals containing the strings mean and std) were extracted for each measurement, and the others were discarded.
-    1. The activity identifiers (originally coded as integers between 1 and 6) were replaced with descriptive activity names.
-    1. The variable names were replaced with descriptive variable names (e.g. tBodyAcc-mean()-X was expanded to timeDomainBodyAccelerometerMeanX), using the following set of rules:
+    2. The training and test sets were merged to create one data set.
+    3. The measurements on the mean and standard deviation (i.e. signals containing the strings mean and std) were extracted for each measurement, and the others were discarded.
+    4. The activity identifiers (originally coded as integers between 1 and 6) were replaced with descriptive activity names.
+    5. The variable names were replaced with descriptive variable names (e.g. tBodyAcc-mean()-X was expanded to timeDomainBodyAccelerometerMeanX), using the following set of rules:
           - Special characters (i.e. (, ), and -) were removed
           - The initial f and t were expanded to frequencyDomain and timeDomain respectively.
           - Acc, Gyro, Mag, Freq, mean, and std were replaced with Accelerometer, Gyroscope, Magnitude, Frequency, Mean, and StandardDeviation respectively.
           - Replaced (supposedly incorrect as per source's features_info.txt file) BodyBody with Body.
-    1. From the data set in step 5, the final data set was created with the average of each variable for each activity and each subject.
+    6. From the data set in step 5, the final data set was created with the average of each variable for each activity and each subject.
 
 
 Please refer run_analysis.R for the R script and README.md file for usage instructions

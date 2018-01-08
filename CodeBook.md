@@ -28,7 +28,8 @@ The first row contains the Variable names, described in details under [Variables
 
 ### ActivityId
 
-6 Activity identifier are there based on which the features of the 30 subjects were recorded: 
+6 Activity identifier are there based on which the features of the 30 subjects were recorded:
+
 	- `WALKING`: subject was walking
 	
 	- `WALKING_UPSTAIRS`: subject was walking upstairs

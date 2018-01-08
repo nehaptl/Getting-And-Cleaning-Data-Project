@@ -2,7 +2,7 @@
 
 ## Tidy Data 
 
-The `tidy_data.txt` data file is a data set that hs been merged, cleaned and filtered from a bigger and untidy data set which comprises of 3 sets and 8 files
+The `tidy_data.txt` data file is a data set that has been merged, cleaned and filtered from a bigger and untidy data set which comprises of 3 sets and 8 files
 
 ### 3 sets of the data
 
@@ -30,10 +30,15 @@ The first row contains the Variable names, described in details under [Variables
 
 6 Activity identifier are there based on which the features of the 30 subjects were recorded: 
 	- `WALKING`: subject was walking
+	
 	- `WALKING_UPSTAIRS`: subject was walking upstairs
+	
 	- `WALKING_DOWNSTAIRS`: subject was walking downstairs
+	
 	- `SITTING`: subject was sitting
+	
 	- `STANDING`: subject was standing
+	
 	- `LAYING`: subject was laying
 	
 ### SubjectId
